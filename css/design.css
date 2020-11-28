@@ -1,0 +1,84 @@
+ *{
+	margin:0;
+	padding:0;
+}
+
+html{
+	background-image: url('img/fond.png');
+	background-attachment:fixed;
+	background-size: cover;
+	background-repeat:no-repeat;
+}
+
+body{
+	max-width: 1000px;
+	margin: auto;
+	min-height: 100vh;
+	display: flex;
+	flex-direction : column;
+	justify-content : space-between;
+	color: white;
+}
+
+header{
+	width: 100%;
+	background: radial-gradient(ellipse farthest-side, #143443 50%, transparent);
+	padding-bottom: 15px;
+}
+
+footer{
+	padding: 10px;
+}
+
+h1{
+	text-align: center;
+	font-size: 2em;
+	margin: 10px;
+}
+
+#objectif{
+	text-align: center;
+	font-weight: bold;
+}
+
+#calendrier{
+	display: flex;
+	flex-wrap : wrap;
+	justify-content: space-around;
+}
+
+#calendrier div{
+	border-radius: 30px;
+	font-size: 6em;
+	text-align: center;
+	width: 150px;
+	background-color: #a30000;
+	color: #bababa;
+	margin: 10px;
+	border: solid 2px black;
+	cursor: pointer;
+}
+
+#calendrier div.allume{
+	background-color: red;
+	color: white;
+}
+
+#calendrier div.selection{
+	border: solid 2px yellow;
+}
+
+#reset{
+	display: block;
+	margin:10px auto;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+
+@media screen and (max-width:640px){
+	#calendrier div{
+		font-size: 4em;
+		width: 100px;
+		margin: 5px;
+	}
+}
