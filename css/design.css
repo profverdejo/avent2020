@@ -8,7 +8,7 @@ html{
 	background-attachment:fixed;
 	background-size: cover;
 	background-repeat:no-repeat;
-	min-height: 100vh;
+	min-height: 100vw;
 }
 
 body{
