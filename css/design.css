@@ -5,15 +5,15 @@
 
 html{
 	background-image: url('img/fond.png');
+	background-attachment : fixed;
 	background-size: cover;
 	background-repeat:no-repeat;
-	min-height: 100vw;
 }
 
 body{
 	max-width: 1000px;
 	margin: auto;
-	min-height: 100%;
+	min-height: 100vh;
 	display: flex;
 	flex-direction : column;
 	justify-content : space-between;
