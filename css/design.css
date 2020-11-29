@@ -14,7 +14,7 @@ html{
 body{
 	max-width: 1000px;
 	margin: auto;
-	min-height: 100vh;
+	min-height: 100vw;
 	display: flex;
 	flex-direction : column;
 	justify-content : space-between;
